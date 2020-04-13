@@ -1,7 +1,7 @@
 @include('inc/header')
 <section class="text-center">
     <div class="container">
-      <h2>Approve the Entries by {{ App\ICTApp::$entries[Session::get('key')] }}</h2>
+      <h2>Approval required by {{ App\ICTApp::$entries[Session::get('key')] }}</h2>
     </div>
   </section>
 <div class="album py-5 bg-light">
